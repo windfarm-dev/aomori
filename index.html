@@ -682,61 +682,64 @@ body { font-family: 'Noto Sans JP', sans-serif; background: var(--paper); color:
         </div>
       </div>
 
-      <!-- カテゴリ10: お金・補償 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-money">
-        <span class="q-cat-icon">💴</span>
-        <div>
-          <div class="q-cat-title">協力金・補償・撤去費用の積み立て</div>
-          <div class="q-cat-sub">年間10万円の根拠・エスクロー積み立て・SPC倒産リスク</div>
+       <!-- 11. 補償・お金 -->
+      <div class="concern-block c-money" id="cb-money">
+        <button class="concern-header" onclick="toggleConcern('cb-money')">
+          <div class="ch-left"><span class="ch-icon">💴</span>
+            <div><div class="ch-title">「年間10万円」で十分な補償なのか</div>
+            <div class="ch-sub">協力金の額 · 撤去費用の負担 · 将来のリスク</div></div>
+          </div><span class="ch-arrow">▼</span>
+        </button>
+        <div class="key-fact-bar">💴 事業者の年間売電収入（推計）は約49億円。地区への協力金は年間10万円。割合にすると0.002%（5万分の1）です。</div>
+        <div class="concern-detail">
+          <div class="detail-text">「年間10万円もらえる」と聞くと多く感じるかもしれませんが、事業の規模と比べてみましょう。</div>
+          <div class="money-visual">
+            <div class="money-box offered">
+              <span class="mb-label">提示された協力金（年間）</span>
+              <span class="mb-num">10万円</span>
+              <div class="mb-note">地区あたり・1年間<br>（検討段階の提示額）</div>
+            </div>
+            <div class="money-vs">
+              <span class="vs-ratio">←比較→</span>
+              <div style="font-size:13px;color:#8a2a20;font-weight:700;margin-top:4px;">相場の<br>20分の1以下</div>
+            </div>
+            <div class="money-box market">
+              <span class="mb-label">論理的な目安（1地区・年間）</span>
+              <span class="mb-num">150〜500万円</span>
+              <div class="mb-note">全国相場・事業規模・<br>地区数から算出した参考値</div>
+            </div>
+          </div>
+          <div class="detail-box warn"><strong>「10万円」は交渉の出発点（アンカー）として意図的に設定されている</strong><br>
+            行動経済学で「アンカリング効果」と呼ばれる手法があります。最初に極端に低い数字を提示しておくと、その後の交渉がその数字を基準に進んでしまうというものです。<br><br>
+            事業者はこの計画の収益構造や全国相場を住民が知らないことを計算に入れた上で、意図的に低い数字を最初に出してきていると考えられます。仮に住民が「10万円は安すぎる。せめて50万円に」と交渉して5倍に引き上げたとしても、相場の「200万円以上」から見れば、事業者は依然として大幅なコスト削減に成功しています。<br><br>
+            <strong>現在提示されている「10万円」は検討段階のものですが、この金額が基準として定着してしまうと、計画実施段階でも不当に低い額が出発点になる可能性があります。最初の数字に引きずられないことが重要です。</strong>
+          </div>
+          <div class="detail-box warn"><strong>全国相場と比べると、いかに低いかがわかる</strong><br>
+            レポート8（大規模陸上風力発電事業における地域協力金の相場水準に関する調査）によると、全国の相場は以下のとおりです。<br><br>
+            <strong>・出力1MWあたり：年間10万〜30万円</strong>（150MWなら年間1,500万〜4,500万円）<br>
+            <strong>・売電収入に対する割合：1〜2%</strong>（年間約50億円の収入なら年間5,000万〜1億円）<br>
+            <strong>・1基あたり：年間50万〜150万円</strong>（35基なら年間1,750万〜5,250万円）<br><br>
+            これらの相場を影響を受ける地区数（仮に10地区）で割っても、<strong>1地区あたり年間150万〜500万円以上</strong>が論理的な目安となります。「10万円」は相場の20分の1以下です。
+          </div>
+          <div class="detail-box amber"><strong>協力金は「受けるリスクへの備え」でもある</strong><br>
+            協力金は単なる「お礼金」ではなく、住民が長期にわたって背負うリスクへの補償という性格を持ちます。<br><br>
+            ・騒音・低周波音の専門調査を独自に依頼すれば数百万円かかります<br>
+            ・農業被害・水害の補償交渉や法律相談にも費用がかかります<br>
+            ・20年後の風車撤去費用が払えなくなったとき、地元に転嫁されるリスクがあります<br><br>
+            年間10万円を20年間積み立てても、たった200万円にしかなりません。<strong>風車1基の基礎コンクリートの撤去費用（5,000万〜1億円）の数百分の1にも満たない金額</strong>です。協力金は、これらのリスクに対する地域の「防衛資金」として機能する水準でなければ意味がありません。
+          </div>
+          <div class="detail-box info"><strong>交渉するための論理的な根拠</strong><br>
+            仮に同意する場合でも、事業者の提示額を鵜呑みにする必要はありません。以下の数字を根拠に交渉できます。<br><br>
+            ①「全国相場（1MWあたり20万円）に基づけば、150MWでは年間3,000万円が事業者が拠出すべき総枠です」<br>
+            ②「その総枠を市町村と地元地区で按分した場合、1地区あたり最低でも年間150万〜200万円が論理的な目安です」<br>
+            ③「青森県共生条例は『地域社会の健全な発展への寄与』を事業者に義務づけており、年間10万円はその精神に反します」<br><br>
+            また金銭だけでなく、<strong>地元業者への優先発注・停電時の電力供給・撤去費用の外部積立</strong>をセットで求めることも有効な交渉材料です。
+          </div>
+          <div class="detail-box amber"><strong>20〜25年後の撤去費用に注意</strong><br>風車の寿命は約20〜25年です。国内試算では撤去費用は1基あたり5,000万〜1億円以上とされています（レポート8）。35基合計では最大35億円以上。事業者（SPC）が将来倒産すると、この費用が地元や行政に回ってくるリスクがあります。</div>
+          <div class="detail-box info"><strong>韓国の裁判例が示すこと</strong><br>韓国では、事業者が「地域振興費」をあらかじめ払っていた場合でも、裁判所は「前払いの協力金は、将来起きた被害への賠償責任を消すものではない」と判断しました。<strong>署名する書類に「補償を求める権利を放棄する」と書いてある場合は別ですので、内容をよく確認してください</strong>。</div>
+          <div class="detail-box ask"><strong>🗣 事業者に確認できること</strong><br>「撤去費用を確実に積み立てるため、銀行など第三者が管理する口座（エスクロー）に毎年積み立ててください。また万一事業者が倒産しても地域に負担が来ない仕組みを協定書に明記してください」</div>
         </div>
       </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">事業者の年間売電収入は約49億円（推計）。地区への協力金は年間10万円で、売電収入の0.002%です。</div>
-          <div class="q-text"><span class="q-mark">Q</span>年間10万円という協力金の算定根拠を教えてください。全国の同規模事業の相場と比べてどう位置づけていますか？増額交渉には応じますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>全国相場は年間数千万円規模です。根拠を問うことで増額交渉の糸口になります。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">風車1基の撤去費用は1.5億〜2.4億円（試算）。35基で50〜84億円になります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>撤去費用を確実に積み立てるため、銀行など第三者が管理するエスクロー口座への毎年の積み立てに同意しますか？積み立て額と管理方法を協定書に明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>事業者（SPC）が20年後に存在しているとは限りません。積み立てがなければ撤去費用が地域・行政に転嫁されます。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">事業はSPC（特別目的会社）で運営されるため、親会社が責任を負わないケースがあります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>実際に事業を運営するSPCの名称と資本構成を教えてください。コスモエコパワー本体（親会社）が連帯して責任を持つことを協定書に明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>SPCが倒産しても親会社に責任を追及できる仕組みを作ることが住民保護の基本です。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ11: 証拠保全（最重要） -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-evidence">
-        <span class="q-cat-icon">📊</span>
-        <div>
-          <div class="q-cat-title">「工事のせいではない」と言わせないための事前記録</div>
-          <div class="q-cat-sub">ベースライン調査・立証責任の転換・最重要の対策</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">被害が出てから「工事との因果関係が不明」と言われることが最大のリスクです。</div>
-          <div class="q-text"><span class="q-mark">Q</span>工事着工前に、住民立ち会いのもとで第三者機関が「現在の水流量」「現在の騒音レベル」「現在の水質」「現在の野生動物の状況」「現在の地盤の状態」を調査・記録し、費用を全額事業者が負担することに同意しますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>事前データがあれば「工事後に悪化した」という因果関係を証明できます。事前データがなければ「もともとそうだった」と言われます。これが最も重要な質問です。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">被害が出ても「事業のせいではない」と主張されると、住民側が因果関係を証明しなければなりません。これは科学的知識のない住民には非常に困難です。</div>
-          <div class="q-text"><span class="q-mark">Q</span>被害が発生した場合、「事業のせいではないこと」を事業者が科学的に証明できない限り、事業者の責任とみなすという条項（立証責任の転換）を協定書に盛り込めますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>通常、被害を訴える住民側が因果関係を証明する必要があります。この条項があれば、事業者が「無関係を証明」しなければならなくなります。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">協定書や覚書の内容が将来の補償争いを左右します。</div>
-          <div class="q-text"><span class="q-mark">Q</span>協定書の内容を法的な効力を持つ書面として締結し、当事者が変わっても（事業者の売却・譲渡があっても）効力が継続することを明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>口約束や「努力する」という表現は法的拘束力がありません。新しい事業者にも同じ条件が適用されることを確保します。</div>
-        </div>
-      </div>
-    </div>
 
 
       <!-- 12. 同意書（新規・重要） -->

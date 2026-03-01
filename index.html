@@ -878,12 +878,12 @@ body { font-family: 'Noto Sans JP', sans-serif; background: var(--paper); color:
   </div>
 </section>
 
-<!-- 質問集 -->
+<!-- 事業者への質問集（統合版） -->
 <section class="questions-section" id="questions">
   <div class="questions-inner">
     <p class="sec-eyebrow">説明会・総会で使える</p>
     <h2 class="sec-title fade-in">事業者への質問集</h2>
-    <hr class="sec-rule" style="background:#1e1c18; border:none;">
+    <hr class="sec-rule" style="border:none; background:#1e1c18; margin-bottom:20px;">
     <p class="sec-lead fade-in">
       次の説明会や総会で、事業者に直接確認できる質問をまとめました。
       一人で全部聞かなくてよいので、気になる項目を選んで声に出してみてください。
@@ -895,231 +895,389 @@ body { font-family: 'Noto Sans JP', sans-serif; background: var(--paper); color:
       「では、その根拠となるデータを書面でいただけますか？」と続けてください。
       口頭の説明は後から「言った・言わない」になります。
       <strong>すべての回答は書面でもらうことが大切です。</strong>
+      回答を拒否された場合、その事実自体が「事業者が誠実でない」という記録になります。
     </div>
 
-    <!-- カテゴリ1：水害・土砂 -->
+    <!-- ① 水害・土砂崩れ -->
     <div class="q-category qc-disaster fade-in">
       <div class="q-cat-header">
         <span class="q-cat-icon">🌊</span>
-        <span class="q-cat-title">水害・土砂崩れのリスクについて</span>
-        <span class="q-cat-note">2025年7月5日の水害を踏まえて</span>
+        <div>
+          <span class="q-cat-title">水害・土砂崩れのリスクについて</span>
+          <div class="q-cat-sub">2025年7月5日の水害を踏まえて</div>
+        </div>
       </div>
       <div class="q-list">
+
         <div class="q-item">
           <div class="q-num">Q1</div>
           <div class="q-content">
             <div class="q-context">山の伐採・造成で保水力が下がると、下流の川により多くの水が一気に流れ込みます。</div>
             <div class="q-text">「舗装や地ならしによって山の保水力がどの程度低下し、下流の集落への流出水量が何パーセント増えると試算していますか？　計算の根拠となるデータを書面で示してください」</div>
-            <div class="q-tip">「問題ありません」だけでは不十分。数字と計算根拠を求めましょう。</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>「問題ない」と口頭で言うだけでは確認できません。具体的な数値を出させることが重要です。流域の一部を開発しただけでも川のピーク流量が1割以上増える試算があります。</div>
           </div>
         </div>
+
         <div class="q-item">
           <div class="q-num">Q2</div>
           <div class="q-content">
             <div class="q-context">設計の前提となる「想定雨量」が実態と合っていない可能性があります。</div>
-            <div class="q-text">「2025年7月5日のような豪雨を『想定内』として排水設計をしていますか？　それとも過去の平均値で計算していますか？　近年の異常気象を踏まえた最悪ケースの試算も示してください」</div>
-            <div class="q-tip">「過去の平均値」で設計している場合、近年の集中豪雨には対応できていない恐れがあります。</div>
+            <div class="q-text">「2025年7月5日のような豪雨を『想定内』として排水設計をしていますか？　それとも過去の平均値で計算していますか？　近年の異常気象を踏まえた最悪ケースの試算も書面で示してください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>「過去の平均値」で設計している場合、近年の集中豪雨には対応できていない恐れがあります。近年は「100年に一度」の豪雨が頻発しており、古い降雨データに基づく設計は危険です。</div>
           </div>
         </div>
+
         <div class="q-item">
           <div class="q-num">Q3</div>
           <div class="q-content">
-            <div class="q-context">工事中は特に土砂崩れのリスクが高まります。</div>
+            <div class="q-context">土砂崩れは工事中・稼働後ともにリスクがあり、命に関わります。</div>
             <div class="q-text">「工事期間中および稼働後に土砂崩れが発生した場合の避難計画と早期警戒システムを、事業者の費用で構築する意思はありますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>「起きたら考える」では遅く、事前の体制整備を約束させる必要があります。</div>
           </div>
         </div>
+
       </div>
     </div>
 
-    <!-- カテゴリ2：健康・騒音 -->
+    <!-- ② 騒音・低周波音・健康 -->
     <div class="q-category qc-health fade-in">
       <div class="q-cat-header">
         <span class="q-cat-icon">😴</span>
-        <span class="q-cat-title">睡眠・健康への影響について</span>
-        <span class="q-cat-note">「500mで安全」の根拠を問う</span>
+        <div>
+          <span class="q-cat-title">睡眠・健康・低周波音への影響について</span>
+          <div class="q-cat-sub">「500mで安全」の根拠を問う</div>
+        </div>
       </div>
       <div class="q-list">
+
         <div class="q-item">
           <div class="q-num">Q4</div>
           <div class="q-content">
             <div class="q-context">「500mで安全」という説明はA特性（低音をカットする補正）での計算値に過ぎず、低周波音は評価されていません。</div>
-            <div class="q-text">「騒音の計算に使っているA特性補正は、低周波音（20〜100Hz）をカットするフィルターです。低周波音も含めた評価を、第三者機関が実際に計測した数値で示してください」</div>
-            <div class="q-tip">「基準値を満たしています」という答えには「どの周波数帯の基準ですか？」と聞き返してください。</div>
+            <div class="q-text">「騒音の計算に使っているA特性補正は、低周波音（20〜100Hz）をカットするフィルターです。低周波音も含めた評価を、第三者機関が実際に測定した数値で書面で示してください。500m・1km・1.5km各地点のデータをお願いします」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>「基準値を満たしています」という答えには「どの周波数帯の基準ですか？」と聞き返してください。フィルターを通さずに測ると、500m地点でも低周波音は明確に観測されることが確認されています。</div>
           </div>
         </div>
+
         <div class="q-item">
           <div class="q-num">Q5</div>
           <div class="q-content">
-            <div class="q-context">低周波音は夜間に遠くまで届きやすくなります（気温逆転現象）。</div>
-            <div class="q-text">「夜間、晴れた日に発生する気温逆転層の条件下で、低周波音が何km先まで届くかをシミュレーションしたデータはありますか？　あれば書面で開示してください」</div>
+            <div class="q-context">低周波音は夜間の晴れた日に「気温逆転層」が発生すると、より遠くまで届くことが研究で確認されています。</div>
+            <div class="q-text">「夜間に気温逆転層が発生する条件での低周波音の到達距離を、青森の気候データをもとにシミュレーションしたデータはありますか？　あれば書面で開示してください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>昼間の計算だけでは不十分です。睡眠への影響は夜間が最も深刻なため、夜間条件での検証が必要です。1km・2km以上離れた地域でも不眠・耳鳴りなどが報告された事例があります。</div>
           </div>
         </div>
+
         <div class="q-item">
           <div class="q-num">Q6</div>
           <div class="q-content">
             <div class="q-context">稼働後に住民から健康被害の苦情が出たとき、どう対応するかが重要です。</div>
-            <div class="q-text">「稼働後に住民から睡眠障害・めまい・耳鳴りなどの健康被害の申し出があった場合、72時間以内に独立した第三者機関による再測定を事業者費用で行い、必要に応じて運転を停止する、という対応プロトコルを協定書に明記してもらえますか？」</div>
+            <div class="q-text">「稼働後に住民から睡眠障害・めまい・耳鳴りなどの申し出があった場合、72時間以内に独立した第三者機関による再測定を事業者費用で実施し、基準超過が確認された場合は運転を停止する、という対応プロトコルを協定書に明記してもらえますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>「起きてから対処する」ための具体的な手順を事前に決めておかないと、被害が出ても「原因不明」として放置されます。韓国では風車の低周波音で裁判所が損害賠償を命じた事例があります。</div>
           </div>
         </div>
+
       </div>
     </div>
 
-    <!-- カテゴリ3：農業・農業用水 -->
-    <div class="q-category qc-farm fade-in">
+    <!-- ③ 農業用水・沢水 -->
+    <div class="q-category qc-water fade-in">
       <div class="q-cat-header">
-        <span class="q-cat-icon">🌾</span>
-        <span class="q-cat-title">農業・農業用水・沢水について</span>
-        <span class="q-cat-note">稲作・畑作の生命線を守る</span>
+        <span class="q-cat-icon">💧</span>
+        <div>
+          <span class="q-cat-title">農業用水・沢水・水質への影響について</span>
+          <div class="q-cat-sub">稲作・畑作の生命線を守る</div>
+        </div>
       </div>
       <div class="q-list">
+
         <div class="q-item">
           <div class="q-num">Q7</div>
           <div class="q-content">
-            <div class="q-context">大規模掘削は地下水の流れを変えることがあります。農業用水の取水口にも影響が出る恐れがあります。</div>
-            <div class="q-text">「大規模な掘削・基礎工事により、地下水の流れが変わったり、沢水の水量や水質が変化したりする可能性はありますか？　農業用水の取水口への影響防止策を書面で示してください」</div>
+            <div class="q-context">大規模掘削は山の地下水脈を変え、沢の水量・水質に影響が出ることがあります。農業用水の取水口にも影響が及ぶ恐れがあります。</div>
+            <div class="q-text">「大規模な掘削・基礎工事により、地下水の流れが変わったり、沢水に濁りや油分・セメント成分が混入したりする可能性はありますか？　農業用水の取水口への影響防止策と、万一汚染された場合の農業被害への補償を書面で示してください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>稲作は清潔な水が命です。工事中に水質が悪化した場合の責任と対策を事前に決めておく必要があります。有機農業・特別栽培に取り組んでいる場合は「認証が取り消された場合の補償も含めて」と加えましょう。</div>
           </div>
         </div>
+
         <div class="q-item">
           <div class="q-num">Q8</div>
           <div class="q-content">
-            <div class="q-context">コンクリート工事ではアルカリ性の排水が出ることがあります。</div>
-            <div class="q-text">「風車基礎のコンクリート打設時に発生するアルカリ性排水が沢や地下水に混入しないための対策を具体的に説明してください。万一混入した場合、農業被害への補償はどうなりますか？」</div>
-            <div class="q-tip">有機農業・特別栽培に取り組んでいる場合は「認証が取り消された場合の補償も含めて答えてほしい」と加えましょう。</div>
+            <div class="q-context">水質問題は「工事のせいかどうか」が後から争われることが多い問題です。工事前の記録が唯一の対抗手段になります。</div>
+            <div class="q-text">「工事着工前に、住民立ち会いのもとで第三者機関が沢水・農業用水の水質（濁度・pH・重金属・大腸菌群等）を測定・記録することに同意しますか？　費用は全額事業者が負担しますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>事前データがなければ「工事前からそうだった」と言われます。ベースラインの記録が損害賠償請求の根拠になります。</div>
           </div>
         </div>
+
+      </div>
+    </div>
+
+    <!-- ④ 農地・作物 -->
+    <div class="q-category qc-farm fade-in">
+      <div class="q-cat-header">
+        <span class="q-cat-icon">🌾</span>
+        <div>
+          <span class="q-cat-title">農地・作物・農道への影響について</span>
+          <div class="q-cat-sub">土砂流入・水路の詰まり・農道の損傷</div>
+        </div>
+      </div>
+      <div class="q-list">
+
         <div class="q-item">
           <div class="q-num">Q9</div>
           <div class="q-content">
-            <div class="q-context">農道は重量制限を想定していません。重機の通行でひどく傷みます。</div>
-            <div class="q-text">「工事車両が通行する農道・生活道路について、路面ダメージの原状回復を事業者の費用で行うことを協定書に明記してもらえますか？　工事開始前と終了後の路面状態を記録する第三者評価も実施してください」</div>
+            <div class="q-context">工事で掘り起こされた土は大雨のたびに農地・水路に流れ込み、堆積が続くと土壌が劣化して稲作が続けられなくなります。</div>
+            <div class="q-text">「農地・水路への土砂流入を防ぐ具体的な対策（沈砂池・防砂シート等）の設計を書面で示してください。万一、農地への堆積や水路の詰まりが起きた場合の撤去・土壌回復・収量損失の補償手順も明記してください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>農地の土壌が一度傷むと回復に何年もかかります。特に田植え・水管理の時期に水路が詰まると、その年の収穫に直接影響します。予防策と補償の両方を事前に約束させることが不可欠です。</div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <!-- カテゴリ4：野生動物 -->
-    <div class="q-category qc-wildlife fade-in">
-      <div class="q-cat-header">
-        <span class="q-cat-icon">🐻</span>
-        <span class="q-cat-title">野生動物・獣害について</span>
-        <span class="q-cat-note">熊・猿・農業被害の増加を防ぐ</span>
-      </div>
-      <div class="q-list">
         <div class="q-item">
           <div class="q-num">Q10</div>
           <div class="q-content">
-            <div class="q-context">工事の騒音（80〜120dB）は熊や猿を山から押し出します。</div>
-            <div class="q-text">「大規模な伐採と工事の騒音により、現在山にいる熊・猿などが集落側に押し出されるリスクをどう評価していますか？　緩衝帯の消失に対する具体的な対策を示してください」</div>
+            <div class="q-context">大型重機・資材運搬トレーラーが農道・生活道路を何年も繰り返し通行します。農道は重量制限を想定していないため、路面がすぐに傷みます。</div>
+            <div class="q-text">「工事用車両が通行する農道・生活道路について、通行前の路面状態を第三者が記録し、工事完了後に同等以上の状態に原状回復することを、費用負担も含めて協定書に明記できますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>農道の損傷は農業作業の支障になります。修繕費用を巡るトラブルを防ぐために事前の合意が必要です。</div>
           </div>
         </div>
+
+      </div>
+    </div>
+
+    <!-- ⑤ 野生動物・獣害 -->
+    <div class="q-category qc-wildlife fade-in">
+      <div class="q-cat-header">
+        <span class="q-cat-icon">🐻</span>
+        <div>
+          <span class="q-cat-title">野生動物・獣害について</span>
+          <div class="q-cat-sub">熊・猿・農業被害の増加を防ぐ</div>
+        </div>
+      </div>
+      <div class="q-list">
+
         <div class="q-item">
           <div class="q-num">Q11</div>
           <div class="q-content">
-            <div class="q-context">管理用林道は動物にとって「集落への通路」になりかねません。</div>
-            <div class="q-text">「管理用林道が野生動物の人里へのアクセスルートになるリスクについて、防止策（グリッドゲートの設置など）を具体的に説明してください。稼働後も含め、獣害が増えた場合の農業被害補償の仕組みも書面で示してください」</div>
-            <div class="q-tip">「問題ない」と答えた場合は「その根拠となる調査データはあるか」と聞いてください。</div>
+            <div class="q-context">工事の騒音（80〜120dB）と大規模伐採は、熊や猿が長年使ってきた住処と餌場を一度に奪います。行き場を失った動物は人里へ移動してきます。</div>
+            <div class="q-text">「大規模な伐採と工事の騒音により、現在山にいる熊・猿などが住処と餌場を失って集落側に押し出されるリスクをどう評価していますか？　緩衝帯の消失に対する具体的な対策を書面で示してください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>目撃情報が既にある地域で生息域を壊せば、被害が増えることは予見可能です。特に秋（9〜11月）の食い溜め時期に住処を失った熊は危険な状態で出没します。事業者の認識を確認します。</div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <!-- カテゴリ5：安全・落氷 -->
-    <div class="q-category qc-safety fade-in">
-      <div class="q-cat-header">
-        <span class="q-cat-icon">🧊</span>
-        <span class="q-cat-title">落氷・ブレード破損・安全について</span>
-        <span class="q-cat-note">2025年秋田死亡事故を踏まえて</span>
-      </div>
-      <div class="q-list">
         <div class="q-item">
           <div class="q-num">Q12</div>
           <div class="q-content">
-            <div class="q-context">国際基準（Seifert公式）では150m級風車の落氷危険ゾーンはタワーから半径約300mとされています。</div>
-            <div class="q-text">「各風車の配置において、半径300mの落氷危険ゾーン内に農地・農道・生活道路・民家が含まれていないか、地図上で確認させてください。含まれている場合、農作業中の安全をどう確保しますか？」</div>
+            <div class="q-context">管理用林道（幅5〜7m）は藪をかき分けなくてもよい平坦な道で、動物が人里に近づくルートになりかねません。</div>
+            <div class="q-text">「管理用林道が野生動物の人里へのアクセスルートになるリスクについて、防止策（グリッドゲートの設置など）を具体的に説明してください。林道ゲートの管理方法と、住民が鍵を持てる条件も教えてください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>林道整備後に農地への熊の侵入が増えた事例が国内で報告されています。「問題ない」と答えた場合は「その根拠となる調査データはあるか」と聞いてください。</div>
           </div>
         </div>
+
         <div class="q-item">
           <div class="q-num">Q13</div>
           <div class="q-content">
-            <div class="q-context">着氷センサーは誤作動することがあり、停止指令後も慣性で数分間回転し続けます。</div>
-            <div class="q-text">「着氷検知システムが故障・誤作動した場合のバックアップ対応を教えてください。また農作業中の住民に着氷・凍結の危険を知らせる警報システムの導入計画はありますか？」</div>
-            <div class="q-tip">2025年秋田の事故では強風注意報中も稼働していました。「警報発令中の運転停止基準」も確認しましょう。</div>
+            <div class="q-context">農業被害が出てから補償交渉を始めると長期化します。「因果関係の証明が難しい」として補償を拒まれるケースもあります。</div>
+            <div class="q-text">「工事期間中および稼働後に野生動物による農業被害が発生した場合の補償基準（対象・金額の算定方法・申請手続き）を、事前に協定書に明記できますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>一度田んぼや畑の作物を食べた熊は爆竹などでは戻りません。最終的には有害鳥獣駆除（射殺）しか手段がなくなることがほとんどです。事前に基準を決めておくことが重要です。</div>
           </div>
         </div>
+
       </div>
     </div>
 
-    <!-- カテゴリ6：補償・お金・撤去 -->
-    <div class="q-category qc-money fade-in">
+    <!-- ⑥ 鳥・生態系 -->
+    <div class="q-category qc-bird fade-in">
       <div class="q-cat-header">
-        <span class="q-cat-icon">💴</span>
-        <span class="q-cat-title">補償・協力金・撤去費用について</span>
-        <span class="q-cat-note">20〜25年後も含めた約束を確認する</span>
+        <span class="q-cat-icon">🦅</span>
+        <div>
+          <span class="q-cat-title">鳥・生き物・農業生態系への影響について</span>
+          <div class="q-cat-sub">バードストライク・猛禽類・渡り鳥</div>
+        </div>
       </div>
       <div class="q-list">
+
         <div class="q-item">
           <div class="q-num">Q14</div>
           <div class="q-content">
-            <div class="q-context">同規模事業の地域協力金の全国相場は年間数千万円〜数億円と言われています。</div>
-            <div class="q-text">「年間10万円という協力金の算出根拠を教えてください。他地域の同規模事業での地域協力金の実績と比較した場合、この金額をどう説明しますか？」</div>
+            <div class="q-context">トビ・オオタカ・ハヤブサなどは農業害虫・ネズミを食べる「天然の害虫駆除係」です。山の稜線を好んで飛ぶため、風車との衝突リスクが高いとされています。</div>
+            <div class="q-text">「計画地周辺の猛禽類の飛行ルートと営巣地を事前に調査しましたか？　バードストライク（風車への衝突死）が発生した場合の報告義務と対策を協定書に明記できますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>猛禽類が減るとネズミや害虫が増え、農薬コストが上がります。農業への間接被害として補償対象になり得ます。</div>
           </div>
         </div>
+
         <div class="q-item">
           <div class="q-num">Q15</div>
           <div class="q-content">
-            <div class="q-context">撤去費用は試算で1基あたり1.5〜2.4億円。SPC（事業専用会社）が倒産すると地域に転嫁されるリスクがあります。</div>
-            <div class="q-text">「撤去費用を確実に確保するため、銀行など第三者が管理する積立口座（エスクロー）への毎年の積立を着工前から開始してください。また、万一事業者が解散・倒産した場合でも、コスモエコパワー本体（親会社）が連帯して撤去費用を負担することを協定書に明記してもらえますか？」</div>
+            <div class="q-context">青森は渡り鳥の重要な中継地です。風車群が山稜に建設されると、毎年通過していた渡り鳥のルートが変わったり衝突リスクが高まったりする可能性があります。</div>
+            <div class="q-text">「渡り鳥の主要な飛行ルートと計画風車の位置関係を調査した結果を示してください。渡り鳥の渡り時期に運転を制限する予定はありますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>渡り鳥は法律で保護された種を含みます。十分な調査なく建設した場合、事業者は法的責任を問われる可能性があります。</div>
           </div>
         </div>
-        <div class="q-item">
-          <div class="q-num">Q16</div>
-          <div class="q-content">
-            <div class="q-context">撤去後にコンクリート基礎が地中に残ると、農地として使えなくなる可能性があります。</div>
-            <div class="q-text">「撤去時のコンクリート基礎の処理方法を教えてください。地中に残す場合、その範囲と農地・山林への影響を明記してください。管理用林道の廃道化・植生回復も含めた原状回復の範囲と費用負担者を協定書に明記してもらえますか？」</div>
-          </div>
-        </div>
+
       </div>
     </div>
 
-    <!-- カテゴリ7：証拠・立証責任（最重要） -->
-    <div class="q-category qc-evidence fade-in">
+    <!-- ⑦ 落氷・安全 -->
+    <div class="q-category qc-safety fade-in">
       <div class="q-cat-header">
-        <span class="q-cat-icon">📋</span>
-        <span class="q-cat-title">「被害が出てから証明できない」を防ぐ質問</span>
-        <span class="q-cat-note">いちばん重要なカテゴリ</span>
+        <span class="q-cat-icon">🧊</span>
+        <div>
+          <span class="q-cat-title">落氷・ブレード破損・農作業中の安全について</span>
+          <div class="q-cat-sub">2025年秋田死亡事故を踏まえて</div>
+        </div>
       </div>
       <div class="q-list">
+
+        <div class="q-item">
+          <div class="q-num">Q16</div>
+          <div class="q-content">
+            <div class="q-context">国際基準（Seifert公式）では150m級風車の落氷危険ゾーンはタワーから半径約300mとされています。強風と遠心力が合わさると、理論上はより遠くに飛ぶ可能性も指摘されています。</div>
+            <div class="q-text">「各風車の配置において、半径300mの落氷危険ゾーン内に農地・農道・生活道路・民家が含まれていないか、地図上で確認させてください。含まれている場合、農作業中の安全をどう確保しますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>農作業中に落氷を受ける危険があります。2025年5月の秋田市の事故では、ブレードが折れて近くにいた81歳男性が亡くなりました。これは現実のリスクです。</div>
+          </div>
+        </div>
+
         <div class="q-item">
           <div class="q-num">Q17</div>
           <div class="q-content">
-            <div class="q-context">被害が起きても「工事との因果関係が不明」と言われると補償を受けられません。工事前の現状記録が唯一の対抗手段です。</div>
-            <div class="q-text">「因果関係を将来証明できるよう、着工前に①現在の川の水流量・水質、②現在の騒音・低周波音レベル、③現在の地盤の状態、④野生動物の動態を、<strong>住民立ち会いのもとで第三者機関が調査・記録し、その費用を全額事業者が負担すること</strong>を協定書に明記してもらえますか？」</div>
-            <div class="q-tip">これが最も重要な質問です。事業者がこれを拒否した場合、それ自体が大きな問題です。</div>
+            <div class="q-context">着氷検知センサーは誤作動することがあり、停止指令後も慣性で数分間回転が続く場合があります。また、警報発令中の稼働基準も重要です。</div>
+            <div class="q-text">「着氷検知システムの仕様・誤作動時のバックアップ対応・完全停止までの時間を示してください。また農作業中の住民に落氷・異常を知らせる警報システムの導入計画と、強風・着氷警報発令中の運転停止基準も教えてください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>「自動停止システムがある」という説明だけでは不十分です。秋田の事故は強風注意報が出ていた日に起きました。実際に農作業者を守る仕組みの詳細が必要です。</div>
           </div>
         </div>
+
+      </div>
+    </div>
+
+    <!-- ⑧ 土地・景観・撤去後 -->
+    <div class="q-category qc-land fade-in">
+      <div class="q-cat-header">
+        <span class="q-cat-icon">🏡</span>
+        <div>
+          <span class="q-cat-title">土地・景観・撤去後の原状回復について</span>
+          <div class="q-cat-sub">コンクリート基礎の残存・農地の再利用・不動産価値</div>
+        </div>
+      </div>
+      <div class="q-list">
+
         <div class="q-item">
           <div class="q-num">Q18</div>
           <div class="q-content">
-            <div class="q-context">被害が出た後で「工事のせいではない」と事業者が主張すると、住民側が因果関係を証明しなければなりません。これは非常に困難です。</div>
-            <div class="q-text">「もし被害が起きた場合、『事業が原因ではないこと』を事業者が科学的に証明できない限り、事業者の責任とみなすという<strong>立証責任の転換</strong>を覚書に盛り込んでもらえますか？」</div>
-            <div class="q-tip">法的に強い効力を持ちます。弁護士に相談してから交渉することをお勧めします。</div>
+            <div class="q-context">大型風車の基礎は直径15〜20m・深さ3〜5mのコンクリートの塊です。完全撤去には多大なコストがかかるため「地下○m以下は残置してよい」という条件で許可されることがあります。</div>
+            <div class="q-text">「撤去時のコンクリート基礎の処理方法（完全撤去か地中残置か）を具体的に示してください。残置する場合、その土地の農地・山林としての再利用はどうなりますか？　誰が責任を取りますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>農地にコンクリートが残ると、農業を続けることが困難になります。将来の世代への影響を今から確認することが重要です。</div>
           </div>
         </div>
+
         <div class="q-item">
           <div class="q-num">Q19</div>
           <div class="q-content">
-            <div class="q-context">稼働後に被害が継続した場合の対応窓口が不明確なことが多くあります。</div>
-            <div class="q-text">「稼働後に住民が問題を申し出た場合の専用窓口（電話番号・担当者名）と、申し出から何日以内に対応するかを協定書に明記してください。窓口はSPCではなく、コスモエコパワー本体（親会社）が設けてください」</div>
+            <div class="q-context">風車が撤去されても、山中に造られた管理用林道は残ります。林道がある限り、野生動物が集落に近づきやすい状態は続きます。</div>
+            <div class="q-text">「風車撤去後の管理用林道の廃道化・植生回復まで含めた計画を示してください。費用は誰が負担しますか？　原状回復の範囲を協定書に明記してもらえますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>林道が残ると獣害リスクが永続します。「風車がなくなれば問題ない」という説明は不十分です。</div>
           </div>
         </div>
+
         <div class="q-item">
           <div class="q-num">Q20</div>
           <div class="q-content">
-            <div class="q-context">説明会での口頭説明は後から「言った・言わない」になります。</div>
-            <div class="q-text">「本日の説明会での説明内容（特に安全性・影響範囲・補償に関する部分）を、議事録として書面にまとめて全戸配布してもらえますか？　回答保留の質問がある場合は、期日を決めて書面で回答してください」</div>
-            <div class="q-tip">説明会終了後すぐに、参加住民が共同で「こういう質問をして、こう答えた」という記録を作っておくことも大切です。</div>
+            <div class="q-context">欧州・北米の研究では、風車が視野に入る範囲の不動産価格が下落する傾向が複数確認されています（LSE等）。</div>
+            <div class="q-text">「周辺住宅・農地の資産価値への影響を第三者が事前に評価しましたか？　価値が低下した場合の補償について協定書に明記できますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>先祖代々の土地の価値が下がることは、農業経営だけでなく将来の相続にも影響します。</div>
           </div>
         </div>
+
+      </div>
+    </div>
+
+    <!-- ⑨ 補償・協力金・撤去費用 -->
+    <div class="q-category qc-money fade-in">
+      <div class="q-cat-header">
+        <span class="q-cat-icon">💴</span>
+        <div>
+          <span class="q-cat-title">補償・協力金・撤去費用の積み立てについて</span>
+          <div class="q-cat-sub">20〜25年後も含めた約束を確認する</div>
+        </div>
+      </div>
+      <div class="q-list">
+
+        <div class="q-item">
+          <div class="q-num">Q21</div>
+          <div class="q-content">
+            <div class="q-context">同規模事業（150MW）の地域協力金の全国相場は、出力1MWあたり年間10〜30万円、つまり年間1,500万〜4,500万円と言われています。これを影響地区数（仮に5地区）で分けても1地区あたり年間150〜500万円以上が論理的な目安です。</div>
+            <div class="q-text">「年間10万円という協力金の算出根拠を教えてください。全国の同規模事業での地域協力金の実績と比較した場合、この金額をどう説明しますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>全国相場の20分の1以下という金額には合理的な説明が求められます。根拠を問うことで増額交渉の糸口になります。「10万円」はあくまで最初の提示額（アンカー）であり、この数字が基準として定着することを防ぐことが重要です。</div>
+          </div>
+        </div>
+
+        <div class="q-item">
+          <div class="q-num">Q22</div>
+          <div class="q-content">
+            <div class="q-context">国内試算では撤去費用は1基あたり5,000万〜1億円以上とされています。35基で最大35億円以上。事業者（SPC）が倒産すると地域に転嫁されるリスクがあります。</div>
+            <div class="q-text">「撤去費用を確実に積み立てるため、銀行など第三者が管理するエスクロー口座への毎年の積み立てを着工前から開始してください。コスモエコパワー本体（親会社）が連帯して撤去費用を負担することを協定書に明記してもらえますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>事業者（SPC）が20年後に存在しているとは限りません。年間10万円を20年積み立てても200万円にしかなりません。風車1基の基礎コンクリートの撤去費用の数百分の1にも満たない金額です。積み立てがなければ撤去費用が地域・行政に転嫁されます。</div>
+          </div>
+        </div>
+
+        <div class="q-item">
+          <div class="q-num">Q23</div>
+          <div class="q-content">
+            <div class="q-context">大規模再エネ事業はSPC（特別目的会社）という別会社で運営されることが多く、SPCが倒産しても親会社が法的に責任を負わないケースがあります。</div>
+            <div class="q-text">「実際に事業を運営するSPCの名称と資本構成を教えてください。コスモエコパワー本体（親会社）が連帯して責任を持つことを協定書に明記できますか？　また事業を第三者に売却する場合は事前に住民の同意を得ることも明記してください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>SPCが倒産しても親会社に責任を追及できる仕組みを作ることが住民保護の基本です。最初に約束した事業者と20年後に責任を持つ事業者が違う会社になっているケースが国内でも起きています。</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ⑩ 証拠保全・立証責任（最重要） -->
+    <div class="q-category qc-evidence fade-in">
+      <div class="q-cat-header">
+        <span class="q-cat-icon">📋</span>
+        <div>
+          <span class="q-cat-title">「被害が出てから証明できない」を防ぐ質問</span>
+          <div class="q-cat-sub">いちばん重要なカテゴリ</div>
+        </div>
+      </div>
+      <div class="q-list">
+
+        <div class="q-item">
+          <div class="q-num">Q24</div>
+          <div class="q-content">
+            <div class="q-context">被害が起きても「工事との因果関係が不明」と言われると補償を受けられません。工事前の現状記録が唯一の対抗手段です。</div>
+            <div class="q-text">「因果関係を将来証明できるよう、着工前に①現在の川の水流量・水質、②現在の騒音・低周波音レベル、③現在の地盤の状態、④野生動物の動態を、<strong>住民立ち会いのもとで第三者機関が調査・記録し、その費用を全額事業者が負担すること</strong>を協定書に明記してもらえますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>事前データがあれば「工事後に悪化した」という因果関係を証明できます。事前データがなければ「もともとそうだった」と言われます。これが最も重要な質問です。事業者がこれを拒否した場合、それ自体が大きな問題です。</div>
+          </div>
+        </div>
+
+        <div class="q-item">
+          <div class="q-num">Q25</div>
+          <div class="q-content">
+            <div class="q-context">被害が出た後で「工事のせいではない」と事業者が主張すると、住民側が因果関係を証明しなければなりません。科学的知識のない住民にはこれは非常に困難です。</div>
+            <div class="q-text">「もし被害が起きた場合、『事業が原因ではないこと』を事業者が科学的に証明できない限り、事業者の責任とみなすという<strong>立証責任の転換</strong>を覚書に盛り込んでもらえますか？」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>通常、被害を訴える住民側が因果関係を証明する必要があります。この条項があれば、事業者が「無関係を証明」しなければならなくなります。法的に強い効力を持つため、弁護士に相談してから交渉することをお勧めします。</div>
+          </div>
+        </div>
+
+        <div class="q-item">
+          <div class="q-num">Q26</div>
+          <div class="q-content">
+            <div class="q-context">稼働後に被害が継続した場合の対応窓口が不明確なことが多く、「たらい回し」になるケースがあります。</div>
+            <div class="q-text">「稼働後に住民が問題を申し出た場合の専用窓口（電話番号・担当者名）と、申し出から何日以内に対応するかを協定書に明記してください。窓口はSPCではなく、コスモエコパワー本体（親会社）が設けてください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>20年以上の長期にわたって問題の相談先が明確でないと、住民が泣き寝入りするリスクがあります。</div>
+          </div>
+        </div>
+
+        <div class="q-item">
+          <div class="q-num">Q27</div>
+          <div class="q-content">
+            <div class="q-context">説明会での口頭説明は後から「言った・言わない」になります。</div>
+            <div class="q-text">「本日の説明会での説明内容（特に安全性・影響範囲・補償に関する部分）を、議事録として書面にまとめて全戸配布してもらえますか？　回答保留の質問がある場合は、期日を決めて書面で回答してください」</div>
+            <div class="q-why"><div class="q-why-label">なぜ重要か</div>説明会終了後すぐに、参加住民が共同で「こういう質問をして、こう答えた」という記録を作っておくことも大切です。書面での記録が将来の交渉・法的手続きの根拠になります。</div>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -1128,319 +1286,6 @@ body { font-family: 'Noto Sans JP', sans-serif; background: var(--paper); color:
       総会・説明会の前にこのページを印刷するか、スマートフォンで開いておきましょう。
       全部の質問を一度に出す必要はありません。気になる項目を1〜2つ選んで、落ち着いて聞いてください。
       「答えてもらえなかった質問」「曖昧な答えだった質問」を記録しておくことも、後の交渉の力になります。
-    </div>
-
-  </div>
-</section>
-
-<!-- 経緯 -->
-<section class="timeline-section" id="timeline">
-  <div class="timeline-inner">
-    <h2 class="tl-title fade-in">この計画の経緯</h2>
-    <div class="tl-list">
-      <div class="tl-row"><div class="tl-dot"></div><div class="tl-date">2025年5月2日</div><div class="tl-text">秋田市新屋海浜公園で風車のブレード（全長約40m）が根元から折れて落下。近くにいた81歳男性が死亡。日本で風力発電が直接の原因となった初の死亡事故とみられ、秋田県警が捜査。</div></div>
-      <div class="tl-row"><div class="tl-dot"></div><div class="tl-date">2025年7月5日</div><div class="tl-text">集落の水没被害。山からの雨水の流れ込みによる既存の洪水リスクが改めて明らかに。</div></div>
-      <div class="tl-row"><div class="tl-dot"></div><div class="tl-date">2025年7月27日</div><div class="tl-text">コスモエコパワー（株）が地域説明会を開催。「民家から500m以上離すので安全」と説明。低周波音の到達距離については直接的な回答がなかった。</div></div>
-      <div class="tl-row"><div class="tl-dot"></div><div class="tl-date">2026年3月8日</div><div class="tl-text">地域総会（本資料の配布）。住民として何を確認すべきかを話し合います。</div></div>
-      <div class="tl-row"><div class="tl-dot"></div><div class="tl-date">今後（未定）</div><div class="tl-text">環境影響評価（EIA）手続きが開始される予定。「方法書」「準備書」が公告されたら、住民が正式に意見書を提出できる機会があります。今から情報と記録を集めておくことが大切です。</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- 事業者への質問集 -->
-<section class="questions-section" id="questions">
-  <div class="questions-inner">
-    <p class="sec-eyebrow">説明会・総会で使える</p>
-    <h2 class="sec-title fade-in">事業者への質問集</h2>
-    <hr class="sec-rule" style="border:none; background:#1e1c18; margin-bottom:20px;">
-
-    <div class="q-intro fade-in">
-      <strong>この質問集の使い方</strong><br>
-      質問は口頭でも、書面で渡すことでも有効です。<strong>回答を書面でもらうことが重要です</strong>——口頭の約束は後で「言っていない」と言われる可能性があります。
-      「書面で回答してください」と伝えることは正当な要求です。回答を拒否された場合、その事実自体が「事業者が誠実でない」という記録になります。
-    </div>
-
-    <!-- カテゴリ1: 騒音・健康 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-health">
-        <span class="q-cat-icon">😴</span>
-        <div>
-          <div class="q-cat-title">騒音・低周波音・健康への影響</div>
-          <div class="q-cat-sub">夜の睡眠・めまい・耳鳴り・「聞こえない音」の問題</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">事業者は「500m離せば騒音基準を満たす」と説明しましたが、この計算はA特性という「低い音をカットするフィルター」を使った値です。</div>
-          <div class="q-text"><span class="q-mark">Q</span>20Hz・40Hz・80Hz・100Hzの各帯域の低周波音が、500m・1km・1.5kmの地点でそれぞれ何デシベルになるか、第三者機関の計算結果を書面で示してください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>低周波音は人体に影響を与えるにもかかわらず、一般的な騒音測定では評価されません。具体的な数値を出させることで、「安全」という主張を検証できます。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">晴れた夜は「気温逆転層」が発生し、風車の音が遠くまで届くことが研究で確認されています。</div>
-          <div class="q-text"><span class="q-mark">Q</span>夜間の気温逆転層が発生する条件での低周波音の到達距離を、青森の気候データをもとにシミュレーションした結果を示してください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>昼間の計算だけでは不十分です。睡眠への影響は夜間が最も深刻なため、夜間条件での検証が必要です。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">韓国では風車の低周波音被害で損害賠償が命じられた事例があります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>稼働開始後、住民から体調不良・不眠の申告があった場合、72時間以内に第三者機関による再測定を行い、基準超過が確認された場合は運転を停止することを協定書に明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>「起きてから対処する」ための具体的な手順を事前に決めておかないと、被害が出ても「原因不明」として放置されます。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ2: 農業用水・水質 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-water">
-        <span class="q-cat-icon">💧</span>
-        <div>
-          <div class="q-cat-title">農業用水・沢水・水質への影響</div>
-          <div class="q-cat-sub">田んぼの水・地下水脈・取水口の安全</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">大規模な掘削・基礎工事は山の地下水脈を変え、沢の水量・水質に影響する可能性があります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>大規模な掘削により地下水の脈が変わったり、沢水に濁りや油分・セメント成分が混入したりする可能性はありますか？その際の農業用水の代替供給体制はどうなっていますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>稲作は清潔な水が命です。工事中に水質が悪化した場合の責任と対策を事前に決めておく必要があります。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">水質問題は「工事のせいかどうか」が後から争われることが多い問題です。</div>
-          <div class="q-text"><span class="q-mark">Q</span>工事着工前に、住民立ち会いのもとで第三者機関が沢水・農業用水の水質（濁度・pH・重金属・大腸菌群等）を測定し、記録を保管することに同意しますか？費用は全額事業者が負担しますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>事前データがなければ「工事前からそうだった」と言われます。ベースラインの記録が損害賠償請求の根拠になります。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ3: 洪水・土砂 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-flood">
-        <span class="q-cat-icon">🌊</span>
-        <div>
-          <div class="q-cat-title">洪水・土砂崩れリスク</div>
-          <div class="q-cat-sub">2025年7月5日の水害・保水力の低下・排水計画</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">2025年7月5日の豪雨で集落が水没しました。舗装・踏み固めにより山の保水力は確実に低下します。</div>
-          <div class="q-text"><span class="q-mark">Q</span>舗装や踏み固めによって山の保水力がどの程度低下し、下流の集落への流出水量が何パーセント増えると試算していますか？第三者機関の計算結果を書面で示してください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>「問題ない」と口頭で言うだけでは確認できません。具体的な数値を出させることが重要です。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">排水設計が過去の平均的な降雨量を基準にしていると、近年の「想定外の豪雨」には対応できません。</div>
-          <div class="q-text"><span class="q-mark">Q</span>2025年7月5日のような「想定外」の降雨量を基準に排水設計を行っていますか？それとも過去の平均値で計算していますか？設計根拠を示してください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>近年は「100年に一度」の豪雨が頻発しています。古い降雨データに基づく設計は危険です。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">土砂崩れは工事中・稼働後ともにリスクがあります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>工事期間中および稼働後に土砂崩れが発生した場合の避難計画・早期警戒システムを事業者の費用で構築する意思はありますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>土砂崩れは命に関わります。「起きたら考える」では遅く、事前の体制整備を約束させる必要があります。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ4: 工事中の生活 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-work">
-        <span class="q-cat-icon">🏗️</span>
-        <div>
-          <div class="q-cat-title">工事中の生活への影響</div>
-          <div class="q-cat-sub">農道の損傷・騒音・振動・粉塵・工事期間</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">大型重機・資材運搬トレーラーが農道・生活道路を何年も繰り返し通行します。</div>
-          <div class="q-text"><span class="q-mark">Q</span>工事用車両が通行する農道・生活道路について、通行前の路面状態を第三者が記録し、工事完了後に同等以上の状態に原状回復することを、費用負担も含めて協定書に明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>農道の損傷は農業作業の支障になります。修繕費用を巡るトラブルを防ぐために事前の合意が必要です。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">風車35基・管理用林道の工事期間は数年に及びます。</div>
-          <div class="q-text"><span class="q-mark">Q</span>工事の全体スケジュール（開始〜完了）、発破・重機稼働の時間帯、騒音・振動の測定と住民への定期報告の方法を書面で示してください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>何年続くのか分からない工事は生活設計に支障をきたします。透明な情報開示を求めることが重要です。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ5: 農地・作物 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-farm">
-        <span class="q-cat-icon">🌾</span>
-        <div>
-          <div class="q-cat-title">農地・作物・農業経営への影響</div>
-          <div class="q-cat-sub">土砂流入・シャドーフリッカー・有機農業認証</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">工事中に農地・水路に土砂が流入すると、田んぼへの堆積や水路の詰まりが起きます。</div>
-          <div class="q-text"><span class="q-mark">Q</span>工事中の土砂流出防止策（沈砂池・土嚢等）の具体的な設計と、農地・水路への土砂流入が起きた場合の撤去・補償の手順を書面で示してください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>農地に砂が堆積すると稲作が困難になります。予防策と補償の両方を事前に約束させる必要があります。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">ブレードの影が周期的に差すシャドーフリッカーは農作業者の体に影響します。</div>
-          <div class="q-text"><span class="q-mark">Q</span>各農地に対するシャドーフリッカー（影のちらつき）の年間発生時間をシミュレーションした結果を示してください。基準を超える場合の対策も教えてください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>農作業中の継続的な光刺激は頭痛・不快感の原因になります。どの農地が影響を受けるか事前に把握することが大切です。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ6: 熊・獣害 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-bear">
-        <span class="q-cat-icon">🐻</span>
-        <div>
-          <div class="q-cat-title">熊・猿・野生動物の出没増加</div>
-          <div class="q-cat-sub">生息域の破壊・管理用林道・農業被害の補償</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">大規模な伐採と工事の騒音は、現在山にいる熊や猿の生息域を壊します。</div>
-          <div class="q-text"><span class="q-mark">Q</span>大規模な伐採と工事の騒音により、現在山にいる熊や猿が集落側に押し出されるリスクをどう評価していますか？緩衝帯（動物と人里の間の空間）はどう確保しますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>目撃情報が既にある地域で生息域を壊せば、被害が増えることは予見可能です。事業者の認識を確認します。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">管理用林道は動物が人里に近づくルートになる可能性があります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>管理用林道が動物の通り道（獣道）となり、人里へのアクセスルートにならないという根拠を示してください。林道ゲートの管理方法と、住民が鍵を持てる条件も説明してください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>林道整備後に熊の農地侵入が増えた事例が国内で報告されています。予防策の具体性を確認します。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">農業被害が出てから補償交渉を始めると長期化します。</div>
-          <div class="q-text"><span class="q-mark">Q</span>工事期間中および稼働後に野生動物による農業被害が発生した場合の補償基準（対象・金額の算定方法・申請手続き）を事前に協定書に明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>「因果関係の証明が難しい」として補償を拒まれないよう、事前に基準を決めておくことが重要です。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ7: 鳥・生態系 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-bird">
-        <span class="q-cat-icon">🦅</span>
-        <div>
-          <div class="q-cat-title">鳥・生き物・農業生態系への影響</div>
-          <div class="q-cat-sub">バードストライク・猛禽類・渡り鳥</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">トビ・オオタカ・ハヤブサなどは農業害虫・ネズミを食べる「天然の害虫駆除係」です。</div>
-          <div class="q-text"><span class="q-mark">Q</span>計画地周辺の猛禽類の飛行ルートと営巣地を事前に調査しましたか？バードストライク（風車への衝突死）が発生した場合の報告義務と対策を協定書に明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>猛禽類が減ると農業害虫・ネズミが増え、農薬コストが上がります。農業への間接被害として補償対象になり得ます。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">青森は渡り鳥の重要な中継地です。</div>
-          <div class="q-text"><span class="q-mark">Q</span>渡り鳥の主要な飛行ルートと計画風車の位置関係を調査した結果を示してください。渡り鳥の渡りの時期に運転を制限する予定はありますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>渡り鳥は法律で保護された種を含みます。十分な調査なく建設した場合、事業者は法的責任を問われる可能性があります。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ8: 落氷・安全 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-ice">
-        <span class="q-cat-icon">🧊</span>
-        <div>
-          <div class="q-cat-title">落氷・ブレード破損・農作業中の安全</div>
-          <div class="q-cat-sub">2025年秋田死亡事故・Seifert公式・警報システム</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">国際的なSeifert公式によると、150m級風車の落氷危険ゾーンは半径約300mです。</div>
-          <div class="q-text"><span class="q-mark">Q</span>各風車から半径300mの範囲に、農地・農道・生活道路・住宅は含まれますか？配置図を示してください。含まれる場合の対策も説明してください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>農作業中に落氷を受ける危険があります。2025年の秋田死亡事故を踏まえると、これは現実のリスクです。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">着氷検知センサーの誤動作や、停止指令後も慣性で回転が続く問題が欧州で報告されています。</div>
-          <div class="q-text"><span class="q-mark">Q</span>着氷検知システムの仕様・誤作動時の対応・完全停止までの時間を示してください。また農作業中の住民に落氷・異常を知らせる警報システムの具体的な仕組みを教えてください。</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>「自動停止システムがある」という説明だけでは不十分です。実際に農作業者を守る仕組みの詳細が必要です。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ9: 土地・景観・資産 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-land">
-        <span class="q-cat-icon">🏡</span>
-        <div>
-          <div class="q-cat-title">土地・景観・撤去後の原状回復</div>
-          <div class="q-cat-sub">コンクリート基礎の残存・農地の再利用・不動産価値</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">大型風車の基礎は直径15〜20m・深さ3〜5mのコンクリートです。撤去後に地中に残ると農地として使えなくなります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>撤去時のコンクリート基礎の処理方法（完全撤去か地中残置か）を具体的に示してください。残置する場合、その土地の農地・山林としての再利用はどうなりますか？誰が責任を取りますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>農地にコンクリートが残ると、農業を続けることが困難になります。将来の世代への影響を今から確認します。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">管理用林道は風車撤去後も山中に残ります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>風車撤去後の管理用林道はどう処理しますか？廃道化・植生の回復まで含めた計画を示してください。費用は誰が負担しますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>林道が残ると獣害リスクが永続します。撤去後まで含めた原状回復計画を確認します。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">欧州の研究では風車周辺の不動産価値が下落することが確認されています。</div>
-          <div class="q-text"><span class="q-mark">Q</span>周辺住宅・農地の資産価値への影響を第三者が事前に評価しましたか？価値が低下した場合の補償について協定書に明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>先祖代々の土地の価値が下がることは、農業経営だけでなく将来の相続にも影響します。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ10: お金・補償 -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-money">
-        <span class="q-cat-icon">💴</span>
-        <div>
-          <div class="q-cat-title">協力金・補償・撤去費用の積み立て</div>
-          <div class="q-cat-sub">年間10万円の根拠・エスクロー積み立て・SPC倒産リスク</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">事業者の年間売電収入は約49億円（推計）。地区への協力金は年間10万円で、売電収入の0.002%です。</div>
-          <div class="q-text"><span class="q-mark">Q</span>年間10万円という協力金の算定根拠を教えてください。全国の同規模事業の相場と比べてどう位置づけていますか？増額交渉には応じますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>全国相場は年間数千万円規模です。根拠を問うことで増額交渉の糸口になります。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">風車1基の撤去費用は1.5億〜2.4億円（試算）。35基で50〜84億円になります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>撤去費用を確実に積み立てるため、銀行など第三者が管理するエスクロー口座への毎年の積み立てに同意しますか？積み立て額と管理方法を協定書に明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>事業者（SPC）が20年後に存在しているとは限りません。積み立てがなければ撤去費用が地域・行政に転嫁されます。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">事業はSPC（特別目的会社）で運営されるため、親会社が責任を負わないケースがあります。</div>
-          <div class="q-text"><span class="q-mark">Q</span>実際に事業を運営するSPCの名称と資本構成を教えてください。コスモエコパワー本体（親会社）が連帯して責任を持つことを協定書に明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>SPCが倒産しても親会社に責任を追及できる仕組みを作ることが住民保護の基本です。</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- カテゴリ11: 証拠保全（最重要） -->
-    <div class="q-category fade-in">
-      <div class="q-cat-header qc-evidence">
-        <span class="q-cat-icon">📊</span>
-        <div>
-          <div class="q-cat-title">「工事のせいではない」と言わせないための事前記録</div>
-          <div class="q-cat-sub">ベースライン調査・立証責任の転換・最重要の対策</div>
-        </div>
-      </div>
-      <div class="q-list">
-        <div class="q-item">
-          <div class="q-context">被害が出てから「工事との因果関係が不明」と言われることが最大のリスクです。</div>
-          <div class="q-text"><span class="q-mark">Q</span>工事着工前に、住民立ち会いのもとで第三者機関が「現在の水流量」「現在の騒音レベル」「現在の水質」「現在の野生動物の状況」「現在の地盤の状態」を調査・記録し、費用を全額事業者が負担することに同意しますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>事前データがあれば「工事後に悪化した」という因果関係を証明できます。事前データがなければ「もともとそうだった」と言われます。これが最も重要な質問です。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">被害が出ても「事業のせいではない」と主張されると、住民側が因果関係を証明しなければなりません。これは科学的知識のない住民には非常に困難です。</div>
-          <div class="q-text"><span class="q-mark">Q</span>被害が発生した場合、「事業のせいではないこと」を事業者が科学的に証明できない限り、事業者の責任とみなすという条項（立証責任の転換）を協定書に盛り込めますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>通常、被害を訴える住民側が因果関係を証明する必要があります。この条項があれば、事業者が「無関係を証明」しなければならなくなります。</div>
-        </div>
-        <div class="q-item">
-          <div class="q-context">協定書や覚書の内容が将来の補償争いを左右します。</div>
-          <div class="q-text"><span class="q-mark">Q</span>協定書の内容を法的な効力を持つ書面として締結し、当事者が変わっても（事業者の売却・譲渡があっても）効力が継続することを明記できますか？</div>
-          <div class="q-why"><div class="q-why-label">なぜ重要か</div>口約束や「努力する」という表現は法的拘束力がありません。新しい事業者にも同じ条件が適用されることを確保します。</div>
-        </div>
-      </div>
     </div>
 
   </div>
